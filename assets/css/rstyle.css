@@ -2,7 +2,9 @@
 
 		body {
 				background-color: #eaebed;
-				background-image: 
+			/*	background-image: */
+				max-width: 100%;
+				overflow-x: hidden;
 			}
 		h1 {
 
@@ -82,6 +84,7 @@
 
 			padding-left: 45px;
 			padding-top: 20px;
+			float: left;
 		}
 
 
@@ -159,6 +162,7 @@
 				padding-left: 45px;
 				padding-right: 20px;
 				padding-bottom: 50px;
+				width: 200px;
 				/*border-radius: 50%;*/
 
 			}
@@ -331,7 +335,7 @@
 
 		form h4 {
 
-			margin: 20px
+			/*margin: 20px;*/
 			font-size: 40px;
 		}
 
@@ -395,6 +399,191 @@
 		    text-align: center;
 		    padding-top: 13px;
 		}
+
+
+     
+
+
+@media screen and (max-width: 768px) {
+	 .div2 {
+     	color: lime;
+        background-color: white;  
+        width: 28%;
+        height: 70%;
+        margin-right: 400px;   
+       
+    }
+
+    .main {
+    	background-color: tomato;
+    }
+
+    .form-wrap {
+
+			width: 295px;
+			border: 2px solid #ccc;
+			margin: 50px auto;
+			padding: 20px 0;
+			float: left;
+
+		}
+
+}
+
+		@media screen and (max-width: 768px) {
+	 .footer {
+
+	 	    margin-top: 1200px;
+			margin-bottom: 0;
+			background-color: grey;
+			height: 40px;
+			padding-left: 500px;
+			font-size: 10px;
+			padding-top: 25px;
+			border-top: solid #4aaaa5;
+     	/*color: lime;*/
+        /*background-color: black;*/  
+        
+        
+           
+       
+    }
+}
+
+
+
+
+		@media screen and (max-width: 768px) {
+	 .contact {
+     	color: lime;
+        background-color: white;  
+        width: 28%;  
+        margin-top: 10px; 
+        margin-right: 600px;
+
+       
+    }
+}
+
+@media screen and (max-width: 768px) {
+	 .contact23 {
+        background-color: white;  
+        width: 610px;  
+        margin-top: 10px; 
+        margin-left: 10px;
+        margin-right: 320px;
+    }
+
+
+    .connect23 li a {
+
+				
+				display: inline;
+				padding-right: 10px;
+				padding-left: 10px;
+				list-style: none;
+				float: left;
+				font-size: 15px;
+
+			}
+
+
+			.form-wrap {
+
+			width: 295px;
+			border: 2px solid #ccc;
+			margin: 50px auto;
+			padding: 20px 0;
+			float: left;
+
+		}
+}
+
+@media screen and (max-width: 640px) {
+
+	h1 {
+				width: 100%;
+				text-align: center;
+				font-size: 250px;
+				color: white;
+				
+			}
+
+	.div23 img {
+				
+				width: 400px;
+				margin-bottom: 30px;
+				margin-right: 300px;
+				margin-left: 80px;
+		}
+	
+
+}
+
+@media screen and (max-width: 980px) {
+
+	.links {
+			width: 100%;
+			margin: 0 auto;
+		}
+
+	.div23 img {
+				
+				width: 400px;
+				margin-bottom: 30px;
+				margin-right: 300px;
+				margin-left: 80px;
+		}
+
+
+	.div33 {
+     	color: lime;
+        background-color: white;  
+        width: 28%;
+        height: 70%;
+        margin-right: 20px;   
+       
+    }
+
+		.contact {
+
+				float: right;
+				width: 250px;
+				background-color: white;
+				padding-bottom: 40px;
+				padding-left: 20px;
+				padding-top: 10px;
+				border: solid #4aaaa5;
+			}
+
+
+    }
+
+		.footer {
+
+	 	    margin-top: 1200px;
+			margin-bottom: 0;
+			background-color: grey;
+			height: 40px;
+			padding-left: 500px;
+			font-size: 10px;
+			padding-top: 25px;
+			border-top: solid #4aaaa5;
+     	/*color: lime;*/
+        /*background-color: black;*/  
+
+        
+        
+           
+       
+    }
+
+
+	
+
+}
+
+		
 
 		/*########################################################################################*/
 
